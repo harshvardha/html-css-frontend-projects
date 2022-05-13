@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+}
+
+#showcase {
+    background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/showcase.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+}
+
+header nav {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+}
+
+header ul {
+    margin: 0;
+    list-style: none;
+    padding-top: 17px;
+    padding-left: 20px;
+    padding-bottom: 9px;
+}
+
+header li {
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+header li:hover {
+    cursor: pointer;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    background-color: #404040;
+}
+
+.container {
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.container h1 {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 60px;
+    padding-top: 210px;
+    margin-left: 18px;
+    text-align: center;
+}
+
+.container h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 35px;
+    font-size: 30px;
+}
+
+.container p {
+    text-align: center;
+    margin-top: 0;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+#music {
+    background-color: #333;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#music h1 {
+    margin-top: 0;
+    padding-top: 30px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#music h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#music p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+#music a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    background-color: #b90415;
+    padding: 20px;
+}
+
+#video {
+    background-color: #f4f4f4;
+    padding: 30px 177px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#video h1 {
+    color: #000;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+#video p {
+    color: #000;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+#video a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #103063;
+    padding: 1rem;
+    display: inline-block;
+}
+
+#video img {
+    width: 100%;
+}
+
+#entertainment {
+    background-image: url(https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg);
+    background-size: cover;
+    background-position-y: bottom;
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10rem 0;
+}
+
+#entertainment h1 {
+    margin-top: 0;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+#entertainment p {
+    font-size: 20px;
+    line-height: 34px;
+}
+
+#gift-cards {
+    font-family: sans-serif;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px 60px;
+}
+
+#gift-cards img {
+    width: 80%;
+    float: right;
+}
+
+#gift-cards h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#gift-cards p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#gift-cards a {
+    text-decoration: none;
+    color: #103063;
+}
+
+#more {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    font-family: sans-serif;
+    background-color: #252529;
+    color: #fff;
+}
+
+#more ul {
+    list-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.list-heading {
+    padding: 10px 0;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #444;
+    line-height: 30px;
+    font-size: 1.2rem;
+}
+
+#more li {
+    padding: 5px 0;
+}
+
+#more a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 14px;
+}
+
+#copyright-details {
+    background-color: #333;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 15px;
+}
+
+#copyright-details p {
+    margin: 0;
+}
