@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Harshvardhan Singh Chauhan">
+    <meta name="description" content="This is a registration page">
+    <link rel="stylesheet" href="css/register.css">
+    <title>register</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">
+            styles<br>conference
+        </h1>
+        <h3 class="date-venue">
+            August 24–26th — Chicago, IL
+        </h3>
+        <nav class="nav-list">
+            <ul>
+                <li style="margin-left: 0;"><a href="index.html">home</a></li>
+                <li><a href="speakers.html">speakers</a></li>
+                <li><a href="schedule.html">schedule</a></li>
+                <li><a href="venue.html">venue</a></li>
+                <li style="margin-right: 0;"><a href="#">register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>register</h2>
+        <p>
+            Every year we aim to have an unbelievable time, and this year we'd love it for you to join us. Conference
+            <br>passes only cost $99, one of the best values you'll find.
+        </p>
+    </section>
+
+    <section id="registration">
+        <div id="pass-details">
+            <h2 class="purchase-heading">purchase a conference pass</h2>
+            <h4 class="pass-price">$99 per pass</h4>
+            <p class="pass-description">
+                Purchase your Styles Conference pass using the form to the right. Multiple passes
+                <br>may be purchased within the same order, so feel free to bring a friend or two along.
+                <br>Once your order is finished we’ll follow up and provide a receipt for your purchase.
+                <br>See you soon!
+            </p>
+            <h3 class="reason">why attend?</h3>
+            <ul>
+                <li>Over twenty world-class speakers</li>
+                <li>One full day of workshops and two full days of presentations</li>
+                <li>Hosted at The Chicago Theatre, a historical landmark</li>
+                <li>August in Chicago is simply amazing</li>
+            </ul>
+        </div>
+        <form class="details-form" action="https://httpbin.org/post" method="post">
+            <label for="name">name</label>
+            <br>
+            <input class="entry-box" type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br>
+            <label for="email">email</label>
+            <br>
+            <input class="entry-box" type="text" id="email" name="email" placeholder="Enter your email" required>
+            <br>
+            <label for="no-of-passes">no. of passes</label>
+            <br>
+            <select name="quantity" id="pass-count" required title="pass-quantity">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <br>
+            <label for="comments">comments</label>
+            <br>
+            <textarea name="comments" id="comments" cols="30" rows="10"
+                placeholder="Enter your comments here"></textarea>
+            <button type="submit">Purchase</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy;styles conference</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="speakers.html">speakers</a></li>
+                <li><a href="schedule.html">schedule</a></li>
+                <li><a href="venue.html">venue</a></li>
+                <li><a href="register.html">register</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>

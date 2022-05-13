@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    background-color: #333;
+    line-height: 1.5;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    margin: 0;
+}
+
+#showcase {
+    min-height: 450px;
+    color: #fff;
+}
+
+#showcase h1 {
+    padding-top: 100px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+#section-a {
+    background-color: #fff;
+}
+
+#section-b {
+    padding: 0;
+    margin: 0;
+}
+
+#section-b ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#section-b li {
+    width: 31%;
+    height: auto;
+    margin-bottom: 1em;
+    background: #fff;
+    color: #333;
+}
+
+#section-c {
+    background-color: #fff;
+    color: #333;
+    padding: 2em;
+}
+
+#section-d {
+    columns: 2;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+#footer {
+    columns: 2;
+    padding: 1em;
+    margin: 0;
+    color: #fff;
+    background-color: #000;
+}
+
+#h2heading {
+    padding: 1em;
+    margin: 0;
+}
+
+.content-text {
+    columns: 2;
+    column-gap: 2em;
+    margin-bottom: 50px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.bg-image {
+    background-image: url(https://static.pexels.com/photos/248515/pexels-photo-248515.png);
+    background-color: rgba(51, 51, 51);
+    background-size: contain;
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #666;
+    padding: 16px 32px;
+    margin: 27px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.box {
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.box:first-child {
+    background: #2690d4;
+}
+
+.content-title {
+    margin: 0;
+    padding: 1em 0;
+}

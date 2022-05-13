@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Harshvardhan Singh">
+    <meta name="description" content="This is a application form">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Application Form</title>
+</head>
+
+<body>
+    <form action="https://httpbin.org/post" method="post">
+        <h1>Application Form</h1>
+        <p id="note">
+            <b>Note: </b> Form needs to be completed at least 21 days prior to date
+        </p>
+        <fieldset id="personal_details">
+            <legend>Personal Details</legend>
+
+            <label for="name">Name: </label>
+            <input type="text" name="name" class="entryBox" placeholder="Enter full name" required>
+
+            <br>
+
+            <label for="address">Address: </label>
+            <input type="text" name="address" class="entryBox" placeholder="Enter your address" required>
+
+            <br>
+
+            <label for="email">Email: </label>
+            <input type="text" name="email" class="entryBox" placeholder="Enter your email" required>
+
+            <br>
+
+            <label for="phone_number">Phone Number: </label>
+            <input type="text" name="phone_number" class="entryBox" placeholder="Enter your phone number" required>
+
+            <br>
+
+            <label for="iq">IQ: </label>
+            <input type="text" name="iq" class="entryBox" placeholder="Enter your iq" required>
+
+            <br>
+
+            <p>Gender</p>
+            <input type="radio" name="gender" class="radioButton" value="male">
+            <label for="male">Male</label>
+
+            <br>
+
+            <input type="radio" name="gender" class="radioButton" value="female">
+            <label for="female">Female</label>
+
+            <br>
+
+            <input type="radio" name="gender" class="radioButton" value="other">
+            <label for="other">Other</label>
+
+            <br>
+
+            <label for="proposed_outing">Date of proposed outing: </label>
+            <input type="date" name="proposed_outing_date" class="entryBox" required>
+        </fieldset>
+
+        <fieldset id="personal_characteristics">
+            <label for="person_characteristics">Check All That Apply</label>
+            <p>
+                <input type="checkbox" name="tattos" class="checkBox" value="tattos/peircings">
+                <label for="tattos">I have tattos and/or peircings</label>
+
+                <br>
+
+                <input type="checkbox" name="age" class="checkBox" value="2 years older">
+                <label for="age">I am more than 2 years older than the girl</label>
+
+                <br>
+
+                <input type="checkbox" name="car" class="checkBox" value="car">
+                <label for="car">I own a panel van or v8 ute</label>
+
+                <br>
+
+                <input type="checkbox" name="work" class="checkBox" value="work">
+                <label for="work">I work full-time</label>
+
+                <br>
+
+                <input type="checkbox" name="rich" class="checkBox" value="rich">
+                <label for="rich">My parents are rich</label>
+
+                <br>
+
+                <input type="checkbox" name="location" class="checkBox" value="location">
+                <label for="location">Is the date at a well lit public location</label>
+            </p>
+        </fieldset>
+
+        <fieldset id="formal_information">
+            <label for="political_ideology">Political Persuasion: </label>
+            <select name="poilitical_ideology" id="dropdown1">
+                <option value="left wing">Left Wing</option>
+                <option value="right wing">Right Wing</option>
+                <option value="conservative">Conservative</option>
+                <option value="nazi">Nazi</option>
+            </select>
+
+            <label for="education_level">Education Level Completed</label>
+            <select name="education_level" id="dropdown2">
+                <option value="university">University</option>
+                <option value="college">College</option>
+                <option value="high school">High School</option>
+                <option value="none">None</option>
+            </select>
+        </fieldset>
+
+        <fieldset id="essay_section">
+            <legend>Essay Section</legend>
+            <label>50 or more explain why you want this job</label>
+            <br>
+            <textarea name="explain_reason" id="reasonTextArea" placeholder="Enter text here" cols="50"
+                rows="4"></textarea>
+            <br>
+            <br>
+            <label for="uploadContactDetails">Please upload contact details for 2 references</label>
+            <br>
+            <textarea name="uploadContactDetails" id="contactDetailsTextArea" placeholder="Enter text here" cols="50"
+                rows="4"></textarea>
+        </fieldset>
+        <button type="submit" id="submit_information">Submit Your Application</button>
+    </form>
+</body>
+
+</html>

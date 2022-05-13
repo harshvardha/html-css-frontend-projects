@@ -1,0 +1,192 @@
+body {
+    background-color: #293f50;
+    margin: 0;
+}
+
+.logo {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 44px;
+    float: left;
+    padding: 40px 0 0 290px;
+    margin: 0;
+}
+
+.date-venue {
+    color: #648880;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    float: right;
+    margin-right: 290px;
+    margin-top: 66px;
+}
+
+.nav-list ul {
+    list-style: none;
+    float: right;
+    margin-right: 290px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.nav-list li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.nav-list a:hover {
+    color: #648880;
+}
+
+#about {
+    clear: both;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+}
+
+#about h2 {
+    color: #648880;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 30px
+}
+
+#about p {
+    text-align: center;
+    color: #888;
+    font-size: 21px;
+    line-height: 33px;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+#venues {
+    background-color: #fff;
+}
+
+.venue {
+    padding-left: 225px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.address {
+    display: inline-block;
+    width: 280px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.place-name {
+    color: #648880;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.place-address {
+    color: #888;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 0;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #648880;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 1px solid #dfe2e5;
+}
+
+.contact-info a:hover {
+    color: #98b3ad;
+}
+
+.contact-info {
+    color: #888;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.map {
+    height: 350px;
+    width: 60.66%;
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer {
+    padding: 30px;
+    text-transform: capitalize;
+}
+
+.footer p {
+    display: inline;
+    color: #648880;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.footer nav {
+    display: inline;
+}
+
+.footer ul {
+    list-style: none;
+    float: right;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 50px;
+}
+
+.footer li {
+    display: inline;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer a:hover {
+    color: #648880;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Harshvardhan Singh">
+    <meta name="description" content="This is a form">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1 id="heading">Good Vibes Form</h1>
+    <div class="masterdiv">
+        <h2>Tell us something positive that happened to you today</h2>
+        <form id="survey_form" action="https://httpbin.org/post" method="post">
+            <div class="form-rows">
+                <div class="labels">
+                    <label for="name">Name: </label>
+                </div>
+                <div class="fields">
+                    <input type="text" name="name" class="input-fields" placeholder="Enter name" required>
+                </div>
+            </div>
+
+            <div class="form_rows">
+                <div class="labels">
+                    <label for="email">Email: </label>
+                </div>
+                <div class="fields">
+                    <input type="text" name="email" class="input-fields" placeholder="Enter email" required>
+                </div>
+            </div>
+
+            <div class="form_rows">
+                <div class="labels">
+                    <label for="number">On a scale of 1-10, how good was it?</label>
+                </div>
+                <div class="fields">
+                    <input type="number" name="number" class="input-fields"
+                        placeholder="Enter a number between 1 and 10" min="1" max="10" required>
+                </div>
+            </div>
+
+            <div class="form_rows">
+                <div class="labels">
+                    <label for="place">Where did it happen?</label>
+                </div>
+                <div class="fields">
+                    <select name="location of positive event" id="dropdownList">
+                        <option value="at home">At Home</option>
+                        <option value="on my commute">On my commute</option>
+                        <option value="at work">At work</option>
+                        <option value="on the street">On the street</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form_rows">
+                <div class="labels">
+                    <label for="time">At what time of day it happen?</label>
+                </div>
+                <div class="fields">
+                    <ul style="list-style: none;">
+                        <li class="radio">
+                            <input type="radio" name="morning" class="radioButton" value="Morning">
+                            <label for="morning">Morning</label>
+                        </li>
+                        <li class="radio">
+                            <input type="radio" name="afternoon" class="radioButton" value="Afternoon">
+                            <label for="afternoon">Afternoon</label>
+                        </li>
+                        <li class="radio">
+                            <input type="radio" name="evening" class="radioButton" value="Evening">
+                            <label for="evening">Evening</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="form_rows">
+                <div class="labels">
+                    <label for="experience">What emotions did you experience?</label>
+                </div>
+                <div class="fields">
+                    <ul style="list-style: none">
+                        <li class="radio">
+                            <input type="checkbox" name="excited" class="checkBox" value="Excited">
+                            <label for="evening">Excited</label>
+                        </li>
+                        <li class="radio">
+                            <input type="checkbox" name="humbled" class="checkBox" value="Humbled">
+                            <label for="humbled">Humbled</label>
+                        </li>
+                        <li class="radio">
+                            <input type="checkbox" name="elated" class="checkBox" value="Elated">
+                            <label for="elated">Elated</label>
+                        </li>
+                        <li class="radio">
+                            <input type="checkbox" name="loved" class="checkBox" value="Loved">
+                            <label for="loved">Loved</label>
+                        </li>
+                        <li class="radio">
+                            <input type="checkbox" name="enthusiastic" class="checkBox" value="Enthusiastic">
+                            <label for="enthusiastic">Enthusiastic</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="form_rows">
+                <div class="labels">
+                    <label for="explain_experience" class="experienceTextArea">Please describe your positive
+                        experience.</label>
+                </div>
+                <div class="fields">
+                    <textarea name="explain_experience" class="input-fields" placeholder="Enter your experience here"
+                        cols="1" rows="1" style="height: 62px; resize: vertical;"></textarea>
+                </div>
+            </div>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
