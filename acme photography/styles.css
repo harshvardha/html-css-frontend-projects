@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto+Condensed:wght@300;400&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgb(0 0 0 / 10%), -30px 0px 40px rgb(0 0 0 / 10%);
+}
+
+#container {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+#landing-text {
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#landing-text h1 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+#landing-text p {
+    color: #888;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 50px;
+    margin-top: 5px;
+}
+
+#landing-text a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+    font-weight: 400;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    background-color: #fff;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    padding: 1rem 3rem;
+}
+
+#landing-text a:hover {
+    background-color: #f2f2f2;
+}
+
+#landing-image img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+#our-work header {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+}
+
+#our-work header h1 {
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 1px dotted #fff;
+    border-right: 1px dotted #fff;
+}
+
+.photo {
+    width: 100%;
+}
+
+.photo-name {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.photo-description {
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+
+.photo-description:last-child {
+    padding-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+footer h3 {
+    text-transform: capitalize;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
